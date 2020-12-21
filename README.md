@@ -49,11 +49,18 @@ There's a great series of talks that discuss the details of various classic gami
 - [Making Pioneer DDJ-RB USB audio work on Linux](https://www.youtube.com/watch?v=cUVuTBH51GY)
   - This is a stream where marcan reverse engineers a proprietary MIDI device in order to write a driver for linux. An amazing insight to how to proceed when faced with a black box.
 
+### Game Specific
+
+- [Mechanics Explained](https://www.youtube.com/channel/UCwRqWnW5ZkVaP_lZF7caZ-g)
+  - A channel where game consoles, and specific games are discussed in detail - often at the assembly level. Really insightful, well made videos - and the knowledge is transferable!
+- [Fig](https://www.youtube.com/channel/UCHcxE9An6Lusrphb_Slmm1A)
+  - Fig is one of the people working on the Zelda OOT/Majoras Mask decompilation project, which aims to recreate a fully documented and buildable C project for both games. Lately he's been making some videos where he dives deep into glitches by analysing the C code. There's a lot of focus on speedrunning - so glitches, exploits, and arbitrary code execution are discussed with some importance!
+
 ### Operating Systems and Kernel Internals
 
 I'm not very knowledgable about Operating System development, but I find it really interesting. 
 
-- [Andreas Kling]()
+- [Andreas Kling](https://www.youtube.com/channel/UC3ts8coMP645hZw9JSD3pqQ)
   - Andreas has been publicly building a POSIX-ish OS on youtube, and it's incredible. I really enjoy watching him work through problems; he's great at explaining his thought process as he's working.
 - [Book: Understanding the Linux Kernel](https://www.amazon.com/Understanding-Linux-Kernel-Third-Daniel/dp/0596005652) 
   - A very readable guided tour through the architecture, subsystems, and data structures of the linux kernel. Might not be completely up to date, but should suffice on a conceptual level.
