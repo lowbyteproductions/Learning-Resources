@@ -81,4 +81,15 @@ I'm not very knowledgable about Operating System development, but I find it real
 - [gateware-ts](https://github.com/gateware-ts/gateware-ts)
   - I can't help but plug my own TypeScript based HDL here! `gateware-ts` is an ongoing effort to make it possible to create FPGA hardware in TypeScript - and is designed specifically to work with the open source toolchain. It's still quite rough around the edges - it doesn't have much in the way of documentation (though some can be generated from the code), and the toolchain must be installed separately - but it's coming along quite nicely. Check out the examples folder to get an idea of how it looks.
 
+## Driving LED Panels
+
+I've recently gotten interested in driving LED panels from an FPGA. These panels are typically combined in larger quanities to create large video wall displays. You can buy the individual panels cheaply from sites like Aliexpress (a 64x64 display is something like €20!).
+
+Here are a few resouces that I've been referencing:
+
+- [Scanlime - FPGA driver for 64x64 LED Panel in icestudio series](https://www.youtube.com/watch?v=aRAyVoljc_w)
+- [Mike's Electric Stuff - Driving a 32x64 Display](https://www.youtube.com/watch?v=Sq8SxVDO5wE)
+- [The Signal Path - The design of a 32x32 LED Panel driver](https://www.youtube.com/watch?v=h6NH_3KpWe8) 
+- [Panel datasheets and schematics](https://github.com/esden/led-panel-docs)
+- [Everything You Didn't Want to Know About RGB Matrix Panels](https://www.sparkfun.com/news/2650)
 
