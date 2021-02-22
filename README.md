@@ -1,6 +1,6 @@
 # Learning Resources
 
-This repository serves as a list of resources that I have personally found useful for learning about certain concepts - especially those disucs in the low level javascript videos. Where applicable, the resource will be annotated with a media type and description. This list will forever be a work-in-progress, and I'll do my best to keep it updated as I think of/find interesting resources!
+This repository serves as a list of resources that I have personally found useful for learning about certain concepts - especially those discussed in the low level javascript videos. Where applicable, the resource will be annotated with a media type and description. This list will forever be a work-in-progress, and I'll do my best to keep it updated as I think of/find interesting resources!
 
 ## Contributing
 
@@ -8,7 +8,7 @@ If you'd like to add your own informative (and relevant) resources, feel free to
 
 ## General Learning
 
-Learning about this topic can be quite overwhelming, because the subject is actually very broad. The key thing that helps me learn when I feel out of my depth reviewing a resource is to accept that I might not (and probably won't) understand everything from it at once. That's fine. Exposing yourself to the terminology and concepts creates a cummulative understanding over time. Look up terms on wikipedia - despite what some people say, wikipedia is one of the worlds greatest achievements. If you don't understand the terms you find on the wikipedia page, then open up all the links in new tabs, and fall down the rabbit hole until things start making sense!
+Learning about low level topics can be quite overwhelming, because the subjects are actually very broad. The key thing that helps me learn when I feel out of my depth reviewing a resource is to accept that I might not (and probably won't) understand everything from it at once. That's fine. Exposing myself to the terminology and concepts creates a cummulative understanding over time. I look up terms on wikipedia - despite what some people say, wikipedia is one of the worlds greatest achievements. If I don't understand the terms O find on the wikipedia page, then I open up all the links in new tabs, and fall down the rabbit hole until things start making sense!
 
 ### Keeping A Journal / Lab Notebook
 
@@ -25,6 +25,20 @@ Using the above methodology, you will undoubtedly end up understanding the syste
 As a final point, lab notes can be make for some of the most interesting blogs! They allow you to showcase your problem solving skills, and I personally have a lot of respect for people who show their entire process.
 
 ## CPUs and Computer Architecture
+
+### Architecture Specific
+
+Understanding and comparing various architectures is a great way to develop a more general overview.
+
+#### ARM
+
+- [The ARM ARM (Architecture Reference Manual)](https://developer.arm.com/documentation/#sort=relevancy&f:@navigationhierarchiesproducts=[Architectures,CPU%20Architecture,M-Profile,Armv7-M])
+  - The comically named ARM ARM is pretty much the bible of understanding this architecture. Well, ARM is actually a lot of different architectures that have one or more common instruction sets. The link here points to the *ARMv7-M Architecture Reference Manual Reference Manual* - which is mainly related to microcontrollers - but on the same website you'll find manuals for all of the others too.
+
+#### RISC-V
+
+- [RISC-V Specifications](https://riscv.org/technical/specifications/)
+  - RISC-V is interesting for a number of reasons. For one, it's not actually an architecture per se, but rather an ISA specification. A RISC-V processor can be implemented however a designer likes, and so long as it adheres to what is stated in the specification, it can be called a RISC-V processor. Secondly, it's open source. This means that anyone can build a RISC-V processor without having to pay license fees (unlike ARM). It's also very cleverly designed, and beautifully minimalistic. 
 
 ### "Ultimate" Talks
 
@@ -93,3 +107,5 @@ Here are a few resouces that I've been referencing:
 - [Panel datasheets and schematics](https://github.com/esden/led-panel-docs)
 - [Everything You Didn't Want to Know About RGB Matrix Panels](https://www.sparkfun.com/news/2650)
 
+- [Building FPGA Hardware Using TypeScript: Driving An RGB LED Panel](https://www.youtube.com/watch?v=Otx96lJnLeo)
+  - This video shows some of the first principles of driving panels, with the demonstration being built using gateware-ts.
