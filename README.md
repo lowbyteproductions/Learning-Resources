@@ -24,9 +24,18 @@ Using the above methodology, you will undoubtedly end up understanding the syste
 
 As a final point, lab notes can be make for some of the most interesting blogs! They allow you to showcase your problem solving skills, and I personally have a lot of respect for people who show their entire process.
 
+### Don't try to learn in a black box
+
+As a quick note, some people will, when working on a project - perhaps from misplaced principles - actively avoid reading other peoples code when trying to solve a problem; I've been guilty of this myself as well. But it really is a *life hack* to get past that pride - because not only will it speed you up dramatically, it will likely reveal to you other, perhaps better ideas. This isn't stealing (at least as long as you're not ripping code out directly or actively trying to avoid attribution!) - this is learning! Discovery feels great, but sometimes you're doing youself a disservice by avoiding the hard work that others have already done.
+
 ## CPUs and Computer Architecture
 
-### Architecture Specific
+### Books
+
+- [Computer Organization and Design RISC-V Edition: The Hardware Software Interface](https://www.amazon.co.uk/Computer-Organization-Design-RISC-V-Architecture/dp/0128122757/)
+  - I've found this book extremely helpful for understanding a bunch of architecture concepts, including CPU pipelining, various forms of parallelism, cache design and memory hierarchies, and even GPU design! It covers tons of ground, and is written in a highly approachable way. The authors don't shy away from introducing up to date, modern concepts either.
+
+### Architecture Specific Resources
 
 Understanding and comparing various architectures is a great way to develop a more general overview.
 
@@ -37,8 +46,20 @@ Understanding and comparing various architectures is a great way to develop a mo
 
 #### RISC-V
 
+- [LLJS RISC-V Series](https://www.youtube.com/playlist?list=PLP29wDx6QmW4sXTvFYgbHrLygqH8_oNEH)
+  - My own personal quest to build a RISC-V CPU on an FPGA in TypeScript using gateware-ts
 - [RISC-V Specifications](https://riscv.org/technical/specifications/)
-  - RISC-V is interesting for a number of reasons. For one, it's not actually an architecture per se, but rather an ISA specification. A RISC-V processor can be implemented however a designer likes, and so long as it adheres to what is stated in the specification, it can be called a RISC-V processor. Secondly, it's open source. This means that anyone can build a RISC-V processor without having to pay license fees (unlike ARM). It's also very cleverly designed, and beautifully minimalistic. 
+  - RISC-V is interesting for a number of reasons. For one, it's not actually an architecture per se, but rather an ISA specification. A RISC-V processor can be implemented however a designer likes, and so long as it adheres to what is stated in the specification, it can be called a RISC-V processor. Secondly, it's open source. This means that anyone can build a RISC-V processor without having to pay license fees (unlike ARM). It's also very cleverly designed, and beautifully minimalistic.
+- [RV32I Instruction Overview](https://raw.githubusercontent.com/RobertBaruch/lmarv/master/lmarv-1/riscv-instructions-book/instr.pdf) by Robert Baruch
+  - A nice, semi-graphical overview of the instructions. I like this because it presents what the instructions do in various forms:
+    - A worded description
+    - The classic `rd <- SomeOperation` functional form
+    - A graphical view of the datapath
+    - An example
+- [Overview of the Base ISA by Andrew Waterman](https://www.youtube.com/watch?v=XWuZSQ6lJlo)
+  - This is a talk given by one of the founders of RISC-V, and explains most of the instructions as well as the rationale behind the design. Really worth watching if you find yourself confused by the encoding at any point while reading the specs!
+- [Awesome RISC-V Resources (github page)](https://github.com/suryakantamangaraj/AwesomeRISC-VResources)
+  - One of the "awesome" collections, which links to docs, open-source cores, emulators etc
 
 ### "Ultimate" Talks
 
@@ -82,7 +103,7 @@ I'm not very knowledgable about Operating System development, but I find it real
 ## Security
 
 - [LiveOverflow](https://www.youtube.com/channel/UClcE-kVhqyiHCcjYwcpfj9w)
-  - This is such a great channel. The style is unique and the presentation of complex concepts is really well done IMO. You can learn all about different exploitation techniques like buffer overflow, reverse engineering insights, and explorations of bugs and vunerabilities in great detail. 
+  - This is such a great channel. The style is unique and the presentation of complex concepts is really well done IMO. You can learn all about different exploitation techniques like buffer overflow, reverse engineering insights, and explorations of bugs and vunerabilities in great detail.
 
 ## FPGA and HDL
 
