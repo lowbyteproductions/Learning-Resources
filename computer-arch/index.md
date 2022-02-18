@@ -13,6 +13,7 @@ Understanding and comparing various architectures is a great way to develop a mo
 
 - [The ARM ARM (Architecture Reference Manual)](https://developer.arm.com/documentation/#sort=relevancy&f:@navigationhierarchiesproducts=[Architectures,CPU%20Architecture,M-Profile,Armv7-M])
   - The comically named ARM ARM is pretty much the bible of understanding this architecture. Well, ARM is actually a lot of different architectures that have one or more common instruction sets. The link here points to the *ARMv7-M Architecture Reference Manual Reference Manual* - which is mainly related to microcontrollers - but on the same website you'll find manuals for all of the others too.
+- [Comparison of the Cortex-M line](./cortex-m.md)
 
 ### RISC-V
 

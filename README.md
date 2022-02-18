@@ -9,7 +9,8 @@ If you'd like to add your own informative (and relevant) resources, feel free to
 ## Contents
 
 - [General tips and methodologies](./general.md)
-- [CPUs and Computer Architecture](./computer-arch.md)
+- [CPUs and Computer Architecture](./computer-arch/index.md)
 - [Security](./security.md)
 - [FPGA and HDL](./fpga-hdl.md)
 - [Driving LED Panels](./led-panels.md)
+- [Microcontrollers](./microcontrollers.md)
