@@ -1,4 +1,4 @@
-# USB Notes
+# USB Terminology Notes
 
 *Note: This is mostly in the context of USB <= 2.0*
 
