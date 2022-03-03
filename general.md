@@ -20,4 +20,12 @@ As a final point, lab notes can be make for some of the most interesting blogs! 
 
 As a quick note, some people will, when working on a project - perhaps from misplaced principles - actively avoid reading other peoples code when trying to solve a problem; I've been guilty of this myself as well. But it really is a *life hack* to get past that pride - because not only will it speed you up dramatically, it will likely reveal to you other, perhaps better ideas. This isn't stealing (at least as long as you're not ripping code out directly or actively trying to avoid attribution!) - this is learning! Discovery feels great, but sometimes you're doing youself a disservice by avoiding the hard work that others have already done.
 
+## Pick a project!
+
+A project can act as a sandbox where you can learn concepts that exist in the context of some wider goal. Let's say that I want to learn more about computer architecture, assembly, and low level systems. Personally I like retro game systems, so building an emulator is a great project. Maybe I pick the GameBoy as my system of choice. Straight away, I have some guide rails and built in achievement points that I can use to motivate my progress.
+
+Another example might be that you want to learn about embedded programming and signal processing. Perhaps you're also interested in music. In that case, a simple synthesizer might be a good project. Once you've picked the project, you've constrained yourself in at least one axis - and constraints are actually a really good thing! Constraints narrow the infinite set of possibilities into something more manageable (and more importantly, more easily googlable!).
+
+Better still, the tangible results you get will spark new connections, ideas, and paths to follow. You'll naturally figure out the branching tree of things to learn by necessity - and these things might be different than you'd originally intended.
+
 [Back to the main page](./README.md)
