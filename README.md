@@ -13,5 +13,4 @@ If you'd like to add your own informative (and relevant) resources, feel free to
 - [Security](./security.md)
 - [FPGA and HDL](./fpga-hdl.md)
 - [Driving LED Panels](./led-panels.md)
-- [Microcontrollers](./microcontrollers.md)
 - [USB](./usb.md)

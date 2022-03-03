@@ -9,6 +9,10 @@
 
 Understanding and comparing various architectures is a great way to develop a more general overview.
 
+### Microcontrollers
+
+- [Microcontroller resources](./microcontrollers.md)
+
 ### ARM
 
 - [The ARM ARM (Architecture Reference Manual)](https://developer.arm.com/documentation/#sort=relevancy&f:@navigationhierarchiesproducts=[Architectures,CPU%20Architecture,M-Profile,Armv7-M])
