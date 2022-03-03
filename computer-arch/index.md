@@ -61,6 +61,7 @@ There's a great series of talks that discuss the details of various classic gami
 
 ## Game Specific
 
+- [GameBoy section](./gameboy.md)
 - [Mechanics Explained](https://www.youtube.com/channel/UCwRqWnW5ZkVaP_lZF7caZ-g)
   - A channel where game consoles, and specific games are discussed in detail - often at the assembly level. Really insightful, well made videos - and the knowledge is transferable!
 - [Fig](https://www.youtube.com/channel/UCHcxE9An6Lusrphb_Slmm1A)
