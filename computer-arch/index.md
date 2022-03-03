@@ -55,13 +55,15 @@ There's a great series of talks that discuss the details of various classic gami
 - [Hacking the Switch](https://www.youtube.com/watch?v=Ec4NgWRE8ik)
   - A different team, but same kind of idea.
 - [Hacking the PS4](https://www.youtube.com/watch?v=QMiubC6LdTA)
-  - Marcan (from the team twiizers) presenting how the security of the PS4 was comprimised
+  - Marcan (from the team twiizers) presenting how the security of the PS4 was compromised
 - [Making Pioneer DDJ-RB USB audio work on Linux](https://www.youtube.com/watch?v=cUVuTBH51GY)
   - This is a stream where marcan reverse engineers a proprietary MIDI device in order to write a driver for linux. An amazing insight to how to proceed when faced with a black box.
 
 ## Game Specific
 
 - [GameBoy section](./gameboy.md)
+- [Copetti](https://www.copetti.org/)
+  - The Copetti blog contains a large number of high level breakdowns of the architecture of various systems, ranging from the 3rd generation of consoles to the 7th. Great place to start if you're looking at building emulators - contains a lot of other links.
 - [Mechanics Explained](https://www.youtube.com/channel/UCwRqWnW5ZkVaP_lZF7caZ-g)
   - A channel where game consoles, and specific games are discussed in detail - often at the assembly level. Really insightful, well made videos - and the knowledge is transferable!
 - [Fig](https://www.youtube.com/channel/UCHcxE9An6Lusrphb_Slmm1A)
