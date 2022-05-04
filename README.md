@@ -9,6 +9,7 @@ If you'd like to add your own informative (and relevant) resources, feel free to
 ## Contents
 
 - [General tips and methodologies](./general.md)
+- [Articles I've enjoyed](./articles.md)
 - [CPUs and Computer Architecture](./computer-arch/index.md)
 - [Security](./security.md)
 - [FPGA and HDL](./fpga-hdl.md)
