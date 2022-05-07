@@ -8,5 +8,7 @@ This collection is articles is currently an unorganised mixed bag. PRs that add 
   - I'm interested in *glitching*; the process of injecting faults into electronic devices to cause intended side effects. Usually this is done with an FPGA or device like the ChipWhisperer, but the author shows how you can use the humble 555 (or at least a variant) to achieve the same thing, with a little more work.
 - [Regular Expression Matching Can Be Simple And Fast (but is slow in Java, Perl, PHP, Python, Ruby, ...) ](https://swtch.com/~rsc/regexp/regexp1.html)
   - Russ Cox's deep dive into regular expression implementation details. I'm currently working through this and other resources to build a Regex VM.
+- [C Structure Padding Initialization](https://interrupt.memfault.com/blog/c-struct-padding-initialization)
+  - Structures in languages like C, C++, and Rust often have padding between the fields added automatically by the compiler for various reasons. How that padding is intitialsed turns out to go pretty deep, and has some interesting security implications.
 
 [Back to the main page](./README.md)
